@@ -1,14 +1,14 @@
-import Home from "./pages/Home";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Content from "./content/Content";
+import Footer from "./components/Footer";
 
-import "./App.css";
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Home />
-      <p>coucou</p>
+    <div className="main-content">
+      <Navbar />
+      <Content />
+      <Footer />
     </div>
   );
 }
-
-export default App;

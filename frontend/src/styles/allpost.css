@@ -1,0 +1,53 @@
+/* Post Styles */
+.allpost h2 {
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 0.5px solid #bfbdbd;
+}
+
+.main-content4 {
+  border-bottom: 0.5px solid #bfbdbd;
+  padding: 30px 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.part1 {
+  display: flex;
+  gap: 15px;
+}
+
+.circle-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fb5607;
+  border-radius: 50%;
+  font-size: 35px;
+  color: white;
+  vertical-align: middle;
+}
+
+.post {
+  padding-left: 60px;
+}
+
+.icons-post {
+  padding-left: 30px;
+  color: #9a4e4e;
+}
+.coeur {
+  padding: 0 30px;
+}
+.commentaire {
+  padding: 0 30px;
+}
+
+.imageupload > img {
+  width: 400px;
+  height: 400px;
+}
